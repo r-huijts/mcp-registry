@@ -7,8 +7,7 @@
       "version": "0.1.0",
       "author": "r-huijts",
       "npmPackage": "r-huijts/opentk-mcp",
-      "defaultPort": 3000,
-      "iconUrl": "https://raw.githubusercontent.com/r-huijts/opentk-mcp/main/icon.png"
+      "defaultPort": 3000
     },
     {
       "id": "github-mcp",
@@ -27,7 +26,6 @@
       "author": "Example Author",
       "version": "1.0.0",
       "npmPackage": "@example/context7-mcp",
-      "iconUrl": "https://context7.com/logo.png",
       "defaultPort": 3002
     },
     {
@@ -37,7 +35,6 @@
       "author": "Example Author",
       "version": "1.0.0",
       "npmPackage": "@example/vibe-check-mcp",
-      "iconUrl": "https://example.com/vibe-check-icon.png",
       "defaultPort": 3003
     }
   ]
