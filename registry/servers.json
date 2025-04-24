@@ -6,7 +6,7 @@
       "description": "A Model Control Protocol (MCP) server for OpenTK, allowing Claude to interact with 3D graphics and simulations.",
       "version": "0.1.0",
       "author": "r-huijts",
-      "npmPackage": "opentk-mcp",
+      "npmPackage": "opentk-mcp"
     }
   ]
 }
