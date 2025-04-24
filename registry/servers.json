@@ -1,0 +1,44 @@
+{
+  "servers": [
+    {
+      "id": "opentk-mcp",
+      "name": "OpenTK MCP Server",
+      "description": "A Model Control Protocol (MCP) server for OpenTK, allowing Claude to interact with 3D graphics and simulations.",
+      "version": "0.1.0",
+      "author": "r-huijts",
+      "npmPackage": "r-huijts/opentk-mcp",
+      "defaultPort": 3000,
+      "iconUrl": "https://raw.githubusercontent.com/r-huijts/opentk-mcp/main/icon.png"
+    },
+    {
+      "id": "github-mcp",
+      "name": "GitHub MCP",
+      "description": "GitHub integration for Claude, enabling repository management, issue tracking, and code review directly from your conversations.",
+      "author": "Example Author",
+      "version": "1.0.0",
+      "npmPackage": "@example/github-mcp",
+      "iconUrl": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+      "defaultPort": 3001
+    },
+    {
+      "id": "context7-mcp",
+      "name": "Context7 MCP",
+      "description": "Real-time documentation lookup for popular libraries and frameworks, powered by Context7.",
+      "author": "Example Author",
+      "version": "1.0.0",
+      "npmPackage": "@example/context7-mcp",
+      "iconUrl": "https://context7.com/logo.png",
+      "defaultPort": 3002
+    },
+    {
+      "id": "vibe-check-mcp",
+      "name": "Vibe Check MCP",
+      "description": "AI metacognition tools for better decision making and error prevention in your Claude conversations.",
+      "author": "Example Author",
+      "version": "1.0.0",
+      "npmPackage": "@example/vibe-check-mcp",
+      "iconUrl": "https://example.com/vibe-check-icon.png",
+      "defaultPort": 3003
+    }
+  ]
+}

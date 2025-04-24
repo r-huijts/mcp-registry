@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCP Registry</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #0066cc;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 10px;
+        }
+        .server {
+            background-color: #f9f9f9;
+            border-radius: 5px;
+            padding: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .server h3 {
+            margin-top: 0;
+            color: #0066cc;
+        }
+        .server p {
+            margin-bottom: 10px;
+        }
+        .server-meta {
+            font-size: 0.9em;
+            color: #666;
+        }
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .footer {
+            margin-top: 40px;
+            border-top: 1px solid #eee;
+            padding-top: 20px;
+            font-size: 0.9em;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <h1>MCP Registry</h1>
+    <p>This repository hosts a registry of Model Control Protocol (MCP) servers for use with Claude and other AI assistants.</p>
+    
+    <h2>Available Servers</h2>
+    <div class="server">
+        <h3>OpenTK MCP Server</h3>
+        <p>A Model Control Protocol server for OpenTK, allowing Claude to interact with 3D graphics and simulations.</p>
+        <div class="server-meta">
+            <p><strong>Author:</strong> r-huijts</p>
+            <p><strong>Version:</strong> 0.1.0</p>
+            <p><strong>Repository:</strong> <a href="https://github.com/r-huijts/opentk-mcp" target="_blank">https://github.com/r-huijts/opentk-mcp</a></p>
+        </div>
+    </div>
+    
+    <div class="server">
+        <h3>GitHub MCP</h3>
+        <p>GitHub integration for Claude, enabling repository management, issue tracking, and code review directly from your conversations.</p>
+        <div class="server-meta">
+            <p><strong>Author:</strong> Example Author</p>
+            <p><strong>Version:</strong> 1.0.0</p>
+        </div>
+    </div>
+    
+    <div class="server">
+        <h3>Context7 MCP</h3>
+        <p>Real-time documentation lookup for popular libraries and frameworks, powered by Context7.</p>
+        <div class="server-meta">
+            <p><strong>Author:</strong> Example Author</p>
+            <p><strong>Version:</strong> 1.0.0</p>
+        </div>
+    </div>
+    
+    <div class="server">
+        <h3>Vibe Check MCP</h3>
+        <p>AI metacognition tools for better decision making and error prevention in your Claude conversations.</p>
+        <div class="server-meta">
+            <p><strong>Author:</strong> Example Author</p>
+            <p><strong>Version:</strong> 1.0.0</p>
+        </div>
+    </div>
+    
+    <h2>Using This Registry</h2>
+    <p>To use this registry with your MCP Store Companion app, set the following URLs in the settings:</p>
+    <ul>
+        <li><strong>Catalogue URL:</strong> <code>https://r-huijts.github.io/mcp-registry/registry/servers.json</code></li>
+        <li><strong>Signature URL:</strong> <code>https://r-huijts.github.io/mcp-registry/registry/servers.json.sig</code> (if signature verification is enabled)</li>
+    </ul>
+    
+    <div class="footer">
+        <p>Maintained by <a href="https://github.com/r-huijts">r-huijts</a>. Last updated: April 2024.</p>
+    </div>
+</body>
+</html>
