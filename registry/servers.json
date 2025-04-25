@@ -6,6 +6,13 @@
         "-y",
         "opentk-mcp"
       ]
+    },
+    "oorlogsbronnen-server": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "oorlogsbronnen-mcp"
+      ]
     }
   }
 }
