@@ -1,12 +1,11 @@
 {
-  "servers": [
-    {
-      "id": "opentk-mcp",
-      "name": "OpenTK MCP Server",
-      "description": "A Model Control Protocol (MCP) server for OpenTK, allowing Claude to interact with 3D graphics and simulations.",
-      "version": "0.1.0",
-      "author": "r-huijts",
-      "npmPackage": "opentk-mcp"
+  "mcpServers": {
+    "opentk-mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "opentk-mcp"
+      ]
     }
-  ]
+  }
 }
